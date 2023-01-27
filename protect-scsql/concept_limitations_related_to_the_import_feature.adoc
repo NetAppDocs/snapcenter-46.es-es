@@ -1,0 +1,19 @@
+---
+permalink: protect-scsql/concept_limitations_related_to_the_import_feature.html 
+sidebar: sidebar 
+keywords:  
+summary: Si se comprenden las limitaciones antes de importar backups archivados de SnapManager para Microsoft SQL Server en SnapCenter, resulta más sencillo completar la importación correctamente. Estos backups deben haberse archivado con la tecnología SnapVault. 
+---
+= Limitaciones relacionadas con la función de importación
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Si se comprenden las limitaciones antes de importar backups archivados de SnapManager para Microsoft SQL Server en SnapCenter, resulta más sencillo completar la importación correctamente. Estos backups deben haberse archivado con la tecnología SnapVault.
+
+* No puede gestionar clones creados con SnapManager para Microsoft SQL Server en SnapCenter. Debe gestionar los clones en SnapManager para Microsoft SQL Server.
+* No puede importar backups desde la interfaz de usuario gráfica de SnapCenter.
+* No es posible importar bases de datos desde una máquina virtual con un disco VMDK.
+

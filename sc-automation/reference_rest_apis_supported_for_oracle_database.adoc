@@ -1,0 +1,115 @@
+---
+permalink: sc-automation/refrence_rest_apis_supported_for_oracle_database.html 
+sidebar: sidebar 
+keywords: REST APIs, oracle database 
+summary: Describe los flujos de trabajo de las API DE REST compatibles con la base de datos de Oracle 
+---
+= API DE REST compatibles con bases de datos de Oracle
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Las bases de datos de Oracle utilizan las API DE REST para realizar las siguientes operaciones:
+
+
+
+== Credenciales
+
+* Registre la credencial con el servidor SnapCenter
+* Recuperar la credencial registrada con el servidor de SnapCenter
+* Recuperar credencial por nombre
+* Modificar la credencial
+* Eliminar credencial
+
+
+
+
+== Host
+
+* Añadir host
+* Quite uno o varios hosts de SnapCenter
+* Recuperar un host por nombre
+
+
+
+
+== Plugin
+
+* Instalación de plugins en el host existente
+* Actualice el plugin
+
+
+
+
+== Política
+
+* Crear una nueva política
+* Recuperar la política por nombre
+* Modifique la política
+* Política de eliminación
+
+
+
+
+== Grupos de recursos
+
+* Proteja el grupo de recursos
+* Modificar la protección
+* Quitar la protección
+* Crear un nuevo grupo de recursos
+* Recuperar grupo de recursos por nombre
+* Modificar grupo de recursos
+* Eliminar grupo de recursos
+
+
+
+
+== Recursos
+
+* Detectar bases de datos
+* Configurar la base de datos
+
+
+
+
+== Completos
+
+* Inicie una operación de backup de recursos
+* Inicie una operación de backup
+* Recuperar backups por nombre
+* Recuperar backups
+* Eliminar un backup por nombre
+
+
+
+
+== Restaurar
+
+* Restaurar un backup
+
+
+
+
+== Actualización de clones
+
+* Cree una especificación de clon de base de datos de Oracle desde un backup especificado
+* Mostrar, modificar y eliminar un archivo específico del clon
+* Actualización de clones
+
+
+
+
+== RBAC
+
+* Asigne recursos a un usuario o grupo
+* Anular la asignación de recursos a un usuario o grupo
+
+
+
+
+== Ajustes de configuración
+
+* Recuperar y modificar los ajustes de configuración
+
