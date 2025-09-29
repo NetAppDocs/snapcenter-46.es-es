@@ -801,7 +801,6 @@
   <block id="5c4de78a2b621074bf68ab1c644af297" category="inline-link-macro">Genere un archivo CSR de certificado de CA</block>
   <block id="0ff4fbc942cecadf8b215fa3272db57a" category="paragraph">Debe implementar certificados de CA después de instalar SnapCenter Server y los respectivos plugins. Para obtener más información, consulte <block ref="de78619abe7dcb7b53be3c4ab98b1283" category="inline-link-macro-rx"></block>.</block>
   <block id="8fbcd736aac5b9c6baba8f4db349f50e" category="inline-link">Crear e importar certificados</block>
-  <block id="c0ddbdc2a9782e98d40c313e95e09705" category="paragraph">También puede implementar el certificado de CA para el plugin de SnapCenter para VMware vSphere. Para obtener más información, consulte<block ref="f5f72b20763af718f23ba7b5cc6b11fa" category="inline-link-rx"></block>.</block>
   <block id="0344fda8fff2d8c5a125ffa5ba5f19a7" category="summary">El software SnapCenter es una plataforma sencilla, centralizada y escalable que proporciona protección de datos consistente con las aplicaciones para aplicaciones, bases de datos, sistemas de archivos host y máquinas virtuales que se ejecutan en sistemas ONTAP en cualquier parte del cloud híbrido.</block>
   <block id="6309043436d4e7e5bad9a81c89ff15e4" category="doc">Información general de SnapCenter</block>
   <block id="edaafea0543ae64ebb79a2ed2e7a055b" category="paragraph">SnapCenter aprovecha las tecnologías Snapshot, SnapRestore, FlexClone, SnapMirror y SnapVault de NetApp para proporcionar lo siguiente:</block>
@@ -862,7 +861,6 @@
   <block id="f131ab7559cf49d32373fdff9b7cbaaa" category="admonition">El plugin de SnapCenter para UNIX no es un plugin independiente y no se puede instalar de forma independiente. Este plugin se instala automáticamente cuando se instala el plugin de SnapCenter para base de datos de Oracle.</block>
   <block id="ad41f7a9e85843a998743e132424a395" category="list-text">Plugins personalizados de SnapCenter</block>
   <block id="b6ddf325474f53377de3e17f65c983f3" category="inline-link">Almacén de automatización del almacenamiento de NetApp</block>
-  <block id="4d85577b7a29bc5d237d7c7beb5ebc7c" category="paragraph">Los plugins personalizados son compatibles con la comunidad y pueden descargarse en el<block ref="14adb94a4faec9ea0e0992d90e98b640" category="inline-link-rx"></block>.</block>
   <block id="4bfa416280fc4f5037348c904859e18f" category="paragraph">El plugin de SnapCenter para VMware vSphere, anteriormente conocido como Data Broker de NetApp, es un dispositivo virtual independiente que admite operaciones de protección de datos de SnapCenter en sistemas de archivos y bases de datos virtualizadas.</block>
   <block id="2aa0571a478e7d0fecaba7f94c88bf25" category="section-title">Servidor SnapCenter</block>
   <block id="e4b70dc0a2377b7bbef832a55b2d603c" category="paragraph">El servidor SnapCenter incluye un servidor web, una interfaz de usuario centralizada basada en HTML5, cmdlets de PowerShell, API DE REST y el repositorio de SnapCenter.</block>
@@ -900,7 +898,6 @@
   <block id="5d5cde1005f814f00d44032094a9a04f" category="paragraph">Host del cliente HDBSQL</block>
   <block id="4abb41aae1dfe9c81afb3c3672df559c" category="paragraph">Linux o Windows</block>
   <block id="98c5825b9b497a5e2a61777325ed802f" category="paragraph">Plugins personalizados</block>
-  <block id="824fb725cd78913cf73d5b8ff0ebe97c" category="paragraph"><block ref="824fb725cd78913cf73d5b8ff0ebe97c" category="inline-link-rx"></block></block>
   <block id="fde05c42841c2ef404a5ed9e7babdf62" category="paragraph">Para backups del sistema de archivos, plugin para Windows</block>
   <block id="0c6a45824d8aa208ef88a943b710cb80" category="paragraph">Host de aplicación personalizada</block>
   <block id="a364132418180f0b14b5eb7db8b87808" category="admonition">El plugin de SnapCenter para VMware vSphere admite operaciones de backup y restauración consistentes con los fallos y consistentes con las máquinas virtuales (VM), almacenes de datos y discos de máquina virtual (VMDK), y admite los plugins específicos para aplicaciones de SnapCenter para proteger operaciones de backup y restauración consistentes con las aplicaciones para bases de datos y sistemas de archivos virtualizados.</block>
@@ -935,7 +932,6 @@
   <block id="7362a758a4c65bbbb4dc5e948b5a5896" category="list-text">Admite plugins personalizados para gestionar aplicaciones o bases de datos que otros plugins de SnapCenter no admiten. No se incluyen los plugins personalizados como parte de la instalación de SnapCenter.</block>
   <block id="7f8b22ee024d485fad8d1c95beda80f7" category="list-text">Admite la creación de copias reflejadas de conjuntos de backup en otro volumen y la ejecución de la replicación de backup de disco a disco.</block>
   <block id="0bdb27719827039d79994d2a17575b2e" category="list-text">Es compatible con entornos Windows y Linux. En los entornos de Windows, las aplicaciones personalizadas a través de plugins personalizados pueden utilizar, opcionalmente, el plugin de SnapCenter para Microsoft Windows con el fin de realizar backups consistentes del sistema de archivos.</block>
-  <block id="bef4d00fa5327b323d516fbe5c1bce99" category="paragraph">Los ejemplos de plugins personalizados de MySQL, DB2 y MongoDB para el software SnapCenter se pueden descargar de<block ref="554f546cf121f440c6cfd97d643765df" category="inline-link-rx"></block>.</block>
   <block id="dbe26f725743679de01e440c2e7697ad" category="admonition">Los plugins personalizados de MySQL, DB2 y MongoDB reciben soporte exclusivamente a través de las comunidades de NetApp.</block>
   <block id="a84dab656bf020b14be7a5c3596b4288" category="paragraph">NetApp admite la funcionalidad de crear y utilizar plugins personalizados; sin embargo, los plugins personalizados que usted crea no son compatibles con NetApp.</block>
   <block id="07af457ed5409f58b0d5ca2b41b5ec39" category="inline-link-macro">Desarrolle un complemento para la aplicación</block>
@@ -5765,7 +5761,6 @@
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">Debe tener un usuario con permisos de administrador del sistema en SQL Server.</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">El plugin de SnapCenter para Microsoft SQL Server utiliza Microsoft VDI Framework, para lo que se requiere acceso de sysadmin.</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Artículo de soporte de Microsoft 2926557: Las operaciones de backup y restauración de VDI de SQL Server requieren privilegios de administrador del sistema</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">Si está instalado SnapManager para Microsoft SQL Server, debe haber detenido o deshabilitado el servicio y las programaciones.</block>
   <block id="1931c747684bb6010ac638ae2be606b3" category="paragraph">Si prevé importar tareas de backup o clonado a SnapCenter, no desinstale SnapManager para Microsoft SQL Server.</block>
   <block id="024ecfe0da835b1f362b5e64ec1408ab" category="list-text">El host debe poder resolverse con el nombre de dominio completo (FQDN) del servidor.</block>
@@ -7807,4 +7802,6 @@ NetApp® Single Mailbox Recovery ha llegado al final de la disponibilidad (EOA) 
   <block id="66bdd10c104f52b4f8519b652bc8e084" category="sidebar">Base de conocimientos de NetApp: SnapCenter</block>
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">Para obtener más información, consulte el<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block> vídeo.</block>
+  <block id="34d41de6bbbd59c588068d1c2b2e073d" category="paragraph">También puede implementar un certificado CA para el complemento SnapCenter para VMware vSphere. Para obtener más información, consulte <block ref="bdfc8d677279c2d2dc7a5041c41cc2d9" category="inline-link-rx"></block> .</block>
+  <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
 </blocks>

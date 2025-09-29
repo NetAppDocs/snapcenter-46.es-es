@@ -8,10 +8,13 @@ summary: Si no desea utilizar la interfaz gráfica de usuario de SnapCenter para
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
+:firstname: [.lead]
+:author: [.lead]
+:authorinitials: [
+:authors: [.lead]
+:revnumber: 
+:revdate: you can use the PowerShell cmdlets that are provided by SnapCenter Plug-in for Microsoft Windows. You can use cmdlets directly or add them to scripts.
 
-
-[role="lead"]
-Si no desea utilizar la interfaz gráfica de usuario de SnapCenter para realizar trabajos de aprovisionamiento de hosts y reclamación de espacio, puede utilizar los cmdlets de PowerShell que ofrece el plugin de SnapCenter para Microsoft Windows. Puede usar los cmdlets directamente o añadirlos a scripts.
 
 Si ejecuta los cmdlets en el host de un plugin remoto, debe ejecutar el cmdlet SnapCenter Open-SMConnection para abrir una conexión con el servidor SnapCenter.
 
